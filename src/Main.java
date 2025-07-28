@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Main {
-    public static double INCOME_PERCENT = 0.06;
-    public static double INCOME_MINUS_EXPENSE_PERCENT = 0.15;
+    public final static double INCOME_PERCENT = 0.06;
+    public final static double INCOME_MINUS_EXPENSE_PERCENT = 0.15;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
